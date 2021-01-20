@@ -27,17 +27,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css?v=1" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio - v1.5.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
-
 <body ng-app="jays" ng-controller="homeCtrl">
-
-  <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
   <!-- ======= Header ======= -->
@@ -654,7 +645,7 @@
   <script src="assets/js/main.js"></script>
   <script>
     var app = angular.module("jays", []);
-    app.controller("homeCtrl", function($scope) {
+    app.controller("homeCtrl", function($scope,$http) {
         $scope.title = "Jaysified";
         
     });
