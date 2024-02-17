@@ -1,6 +1,10 @@
 
     [
         {
+            "Skill": "CRM Analytics",
+            "Year": "2023"
+            
+        },{
             "Skill": "Salesforce Health Cloud (SFHC) ",
             "Year": "2021"
             
